@@ -19,6 +19,63 @@
       vero quod omnis! Laborum corrupti qui vitae numquam reprehenderit
       molestias.
     </p>
-    <button class="btn btn-success">Submit</button>
+    <div class="fullBox">
+      <form class="box col-sm-6">
+        <h3>Registration form</h3>
+        <label for="fullname">Name:</label>
+        <input
+          type="text"
+          class="form-control"
+          name="fname"
+          id="fname"
+          placeholder="Please enter your name"
+        />
+        <label for="email">Email:</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">@</span>
+          </div>
+          <input
+            type="email"
+            placeholder="Please enter your email"
+            class="form-control"
+            name="email"
+            id="email"
+          />
+        </div>
+        <label for="number">Phone Number:</label>
+        <input
+          type="tel"
+          placeholder="Please enter your number"
+          class="form-control"
+          name="number"
+          id="number"
+        />
+        <label for="query">Description:</label>
+        <input
+          type="text-area"
+          placeholder="Enter the description"
+          class="form-control"
+          name="msg"
+          id="msg"
+        />
+        <!-- <label for="gender">Gender:</label> -->
+        <br />
+        <label for="">Contact through:</label>
+        <input type="radio" name="me" id="" />Email
+        <input type="radio" name="me" id="" />Text message
+        <input type="radio" name="me" id="" />Whatsapp
+        <br />
+        <button
+          type="submit"
+          class="btn m-2"
+          id="btn"
+          style="color: rgb(78, 122, 113); background-color: rgb(255, 255, 255)"
+        >
+          <b> Get your guide!</b>
+        </button>
+        <p>We respect your privacy. Unsubscribe at any time.</p>
+      </form>
+    </div>
   </body>
 </html>
